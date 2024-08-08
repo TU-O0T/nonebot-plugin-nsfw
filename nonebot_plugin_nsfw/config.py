@@ -3,7 +3,7 @@ from typing import Literal, Optional
 
 import nonebot
 from nonebot import logger
-from pydantic import BaseModel, NonNegativeInt, PositiveInt, field_validator
+from pydantic import BaseModel, NonNegativeInt, PositiveInt
 
 DEFAULT_NSFW_MODEL_PATH = str(Path.cwd() / "nsfw_mobilenet2_v1.2.0.h5")
 DEFAULT_NSFW_MODEL_URI = "https://github.com/iyume/nonebot-plugin-nsfw/releases/download/v0.0/nsfw_mobilenet2_v1.2.0.h5"
